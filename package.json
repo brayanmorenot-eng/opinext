@@ -1,0 +1,12 @@
+{
+  "name": "opimed-platform",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.0.0",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "pnpm --filter opimed-web dev",
+    "build": "pnpm --filter opimed-web build",
+    "lint": "pnpm --filter opimed-web lint"
+  }
+}
